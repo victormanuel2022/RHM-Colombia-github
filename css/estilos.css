@@ -1040,3 +1040,26 @@
 
     
 }
+
+/* animaciones */
+
+.header{          
+     
+    background-image: linear-gradient(360deg, red,blue, yellow);
+    height: 20vh;
+      
+    
+}
+
+
+
+.main h2{    
+    transition: 2s;
+    /* propiedad duración */
+}
+
+.main h2:hover { 
+    transform: translate(5vh,0);
+    background-color: rgb(224, 138, 25);
+}
+
